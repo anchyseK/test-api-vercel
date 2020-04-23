@@ -4,8 +4,8 @@ const escape = require('sql-template-strings')
 module.exports = async (req, res) => {
   const [profile] = await db.query(escape`
     SELECT *
-    FROM user
-    WHERE id = 1
+    FROM t_livre
+    WHERE idLivre = 1
   `)
-  res.status(200).json({ profile })
+  res.status(200).json({ profile });
 }
