@@ -1,0 +1,14 @@
+{
+  "name": "test-api-vercel",
+  "version": "1.0.0",
+  "description": "Test creating and deploying a Node.js API powered by mySQL, on Vercel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@now/node": "^1.5.1"
+  }
+}
