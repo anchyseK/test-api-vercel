@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@now/node": "^1.5.1"
+    "@now/node": "^1.5.1",
+    "dotenv": "^8.2.0",
+    "serverless-mysql": "^1.5.4",
+    "sql-template-strings": "^2.2.2"
   }
 }
